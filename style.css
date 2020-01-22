@@ -1102,3 +1102,16 @@ a:hover, a:active {
     text-align: center;
     font-size: 50px;
   }
+
+  #about-img {
+    padding-left: 39.1%;
+    padding-top: 25px;
+    max-width: 90%;
+    max-height: 50%;
+    position: absolute;
+  }
+
+  .about-author {
+      text-align: center;
+      padding-top: 320px;
+  }
