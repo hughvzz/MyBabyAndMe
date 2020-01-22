@@ -1104,14 +1104,21 @@ a:hover, a:active {
   }
 
   #about-img {
-    padding-left: 39.1%;
+    margin-left: -230px;
     padding-top: 25px;
     max-width: 90%;
     max-height: 50%;
-    position: absolute;
+    position: fixed;
+    left: 50%;
   }
 
   .about-author {
       text-align: center;
-      padding-top: 320px;
+      padding-top: 510px;
+      position: relative;
   }
+
+  .text-about {
+    margin-right: 10px;
+    margin-left: 10px;
+}
