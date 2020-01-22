@@ -1105,7 +1105,7 @@ a:hover, a:active {
 
   #about-img {
     padding-left: 39.1%;
-    padding-top: 25px;
+    padding-top: 20px;
     max-width: 90%;
     max-height: 50%;
     position: absolute;
@@ -1113,5 +1113,12 @@ a:hover, a:active {
 
   .about-author {
       text-align: center;
-      padding-top: 320px;
+      padding-top: 305px;
+      margin-left: 10%;
+      margin-right: 10%;
+  }
+
+  .about-social {
+    margin-left: auto;
+    margin-right: auto; 
   }
