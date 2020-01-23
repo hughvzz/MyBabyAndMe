@@ -1112,13 +1112,17 @@ a:hover, a:active {
     left: 50%;
   }
 
-  .about-author {
-      text-align: center;
-      padding-top: 305px;
-      margin-left: 10%;
-      margin-right: 10%;
-      position: absolute;
+  #wrapper-about-author {
+      position: relative;
   }
+
+  .about-author {
+    text-align: center;
+    padding-top: 305px;
+    margin-left: 10%;
+    margin-right: 10%;
+    position: absolute;
+}
 
   .about-social {
     margin-left: auto;
