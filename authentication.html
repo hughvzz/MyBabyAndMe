@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Judith & Hugo</title>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!-- FontAwesome CSS -->
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32" />
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="site.webmanifest">
+</head>
+<body>
+<header class="site-header">
+    <div class="site-branding">
+        <h1 class="site-title"><a href="index.html" rel="home"><img src="images/logo.png" alt="Logo"></a></h1>
+    </div><!-- .site-branding -->
+
+    <div class="hamburger-menu">
+        <div class="menu-icon">
+            <img src="images/menu-icon.png" alt="menu icon">
+        </div><!-- .menu-icon -->
+
+        <div class="menu-close-icon">
+            <img src="images/x.png" alt="menu close icon">
+        </div><!-- .menu-close-icon -->
+    </div><!-- .hamburger-menu -->
+</header><!-- .site-header -->
+
+<nav class="site-navigation flex flex-column justify-content-between">
+    <div class="site-branding d-none d-lg-block ">
+        <h1 class="site-title"><a href="index.html" rel="home"><img src="images/logo2.png" alt="Logo"></a></h1>
+    </div><!-- .site-branding -->
+
+    <ul class="main-menu flex flex-column justify-content-center">
+        <li class="current-menu-item"><a href="index.html">Home</a></li>
+        <li><a href="portfolio.html">Pics</a></li>
+        <li><a href="blog.html">Wedding Plans</a></li>
+        <li><a href="countdowns.html">Countdown</a></li>
+        <li><a href="about.html">About</a></li>
+    </ul>
+
+    <p id="copyright">
+    Hugo Vázquez &copy; <script>document.write(new Date().getFullYear());</script>
+    </p>
+
+</nav><!-- .site-navigation -->
+
+<div class="nav-bar-sep d-lg-none"></div>
+
+<div class="outer-container">
+    <div class="single-post">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <ul class="breadcrumbs flex align-items-center">
+                        <li><a href="index.html">Home</a></li>
+                        <li>Countdown</li>
+                    </ul><!-- .breadcrumbs -->
+                </div><!-- .col -->
+            </div><!-- .row -->
+
+            <div class="row">
+                <div class="col-12">
+                    <h1 id = authentication-header>Authentication</h1>
+                        <h2 id = countdown>
+
+                            <form id="myForm" action="blog.html">
+                                Password: <input type="text" name="fname" value="Donald"><br>
+                                <button onclick="myFunction()">Enter</button>
+                              </form>
+
+                              <script>
+                                function myFunction() {
+                                    if(fname = "judy1501"){
+                                  var x = document.getElementById("myForm").action;
+                                  document.getElementById("demo").innerHTML = x;
+                                  } else {
+                                    alert("Wrong password.");
+                                  }
+                                }
+                                </script>
+
+                            <form action="/action_page.php">
+                                Password: <input type="text"><br>
+                                <input type="submit" value="Submit">
+                                </form>
+                                <input id="name" name="person" />
+
+                                <script>
+                                function opener() {
+                                    var text = document.getElementById('name').value;
+                                    var targetNames = {
+                                        judy1501 : "https://hughvzz.github.io/MyBabyAndMe/blog.html",
+                                    };
+                                    if (text in targetNames) {
+                                        window.open(targetNames[text]);  
+                                    }
+                                }
+
+                                document.getElementById('name').addEventListener('keyup', opener, false);
+                                </script>
+                        </h2>
+                </div><!-- .col -->
+
+            </div><!-- .row -->
+        </div><!-- .container -->
+    </div><!-- .single-post -->
+</div><!-- .outer-container -->
+
+<script type='text/javascript' src='js/jquery.js'></script>
+<script type='text/javascript' src='js/custom.js'></script>
+
+</body>
+</html>
