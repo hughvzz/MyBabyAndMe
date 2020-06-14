@@ -1165,8 +1165,10 @@ a:hover, a:active {
 }
 
 #div-header {
-    text-align: center;
+    text-align: 50%;
     font-size: 20pt;
+    font-weight: bold;
+    color: #f0437e;
 }
 
 #byline2{
@@ -1181,18 +1183,33 @@ a:hover, a:active {
 
 #left-div1 {
     float: left;
-	width: 33%;
+	width: 50%;
     height:inherit;
+    padding-bottom: 25px;
 }
 
 #center-div1 {
     float: left;
-	width: 33%;
+	width: 50%;
     height:inherit;
+    padding-bottom: 25px;
 }
 
 #right-div1 {
     float: left;
 	width: 33%;
+    height:inherit;
+}
+
+#column-header {
+    text-align: left;
+    font-size: 10pt;
+    font-weight: bold;
+}
+
+#center-honeymoon-table {
+    float: center;
+	border: 10px;
+	width: 100%;
     height:inherit;
 }
